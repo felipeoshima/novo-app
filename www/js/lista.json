@@ -1,0 +1,38 @@
+var baladas = [
+{
+	nome: 'Beco 203',
+	logo:"beco.jpg",
+	festa:"F*** REHAB | Open Bar de Vodka, Whisky, Chopp, Refri e 5 drinks",
+	data:"30/03/2016",
+	hora: "23h",
+	comLista: "R$ 50,00",
+	semLista: "R$ 70,00",
+	tipo:["openBar"],
+	genero: {gen: "pop", descricao: "Pop"},
+	local: 'Augusta'
+},
+{
+	nome: 'Lab Club',
+	logo:"lab.jpg",
+	festa:"Gringo Party - All vip - Double beer & vodka",
+	data:"29/03/2016",
+	hora: "23h",
+	comLista: "VIP até 0h - Após R$15 entrada ou R$30 consumação",
+	semLista: "R$20 entrada ou R$40 consumação",
+	tipo:["vip"],
+	genero: {gen: "popRock", descricao: "Pop / Rock"},
+	local: 'Vila Madalena'
+},
+{
+	nome: 'Blitz Haus',
+	logo:"blitz.jpg",
+	festa:"INBOX N.O 15 - OPEN BAR",
+	data:"07/04/2016",
+	hora: "23h",
+	comLista: "R$ 40,00",
+	semLista: "R$ 60,00",
+	tipo:["openBar"],
+	genero: {gen: "popRockIndie", descricao: "Pop / Rock / Indie"},
+	local: 'Pinheiros'
+}
+];

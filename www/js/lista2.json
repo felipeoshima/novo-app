@@ -1,0 +1,38 @@
+var baladas = [
+{
+	nome: 'Nome 1',
+	logo:"",
+	festa:"Título 1",
+	data:"30/03/2016",
+	hora: "23h",
+	comLista: "valor1",
+	semLista: "valor2",
+	tipo:["openBar"],
+	genero: {gen: "gen1", descricao: "Gênero 1"},
+	localizacao: 'localização 1'
+},
+{
+	nome: 'Nome 2',
+	logo:"",
+	festa:"Título 2",
+	data:"30/03/2016",
+	hora: "23h",
+	comLista: "valor1",
+	semLista: "valor2",
+	tipo:["openBar"],
+	genero: {gen: "gen2", descricao: "Gênero 2"},
+	localizacao: 'localização 2'
+},
+{
+	nome: 'Nome 3',
+	logo:"",
+	festa:"Título 3",
+	data:"30/03/2016",
+	hora: "23h",
+	comLista: "valor1",
+	semLista: "valor2",
+	tipo:["openBar"],
+	genero: {gen: "gen3", descricao: "Gênero 3"},
+	localizacao: 'localização 3'
+}
+];
