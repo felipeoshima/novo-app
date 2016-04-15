@@ -1,8 +1,3 @@
-if (window.cordova.platformId == "browser") {
-    facebookConnectPlugin.browserInit(152479708206968);
-    // version is optional. It refers to the version of API you may want to use.
-}
-
 $(document).ready(function() {   
 
 	//Loop para trazer e filtrar as baladas do Lista.Json
@@ -275,5 +270,8 @@ $(document).ready(function() {
 			$(".listaBusca .lista").empty()
 		}
 	}
-
+if (window.cordova.platformId == "browser") {
+    facebookConnectPlugin.browserInit(152479708206968);
+    // version is optional. It refers to the version of API you may want to use.
+}
 });
